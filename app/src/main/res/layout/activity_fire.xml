@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FireActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Aid Kit Checklist"
+        android:textSize="35dp"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title">
+
+        <TextView
+            android:id="@+id/checklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:padding="10dp"
+            android:text="• Adhesive plastic dressing strips, sterile, packets of 50
+        	\n• Adhesive Dressing Tape, 2.5cm x 5cm
+        	\n•Dressing, non-adherent, sterile, 7.5cm x 7.5cm
+        	\n•Gauze bandages – 5cm,10cm
+        	\n•Gloves, disposable, single
+        	\n•Rescue blanket, silver space
+        	\n•Safety pins, packets
+        	\n•Scissors, blunt/short nosed, minimum length 12.5cm
+        	\n•Splinter forceps, stainless steel
+        	\n•Sterile eyewash solution, 10ml single use amputees or sachets
+        	\n•Swabs, prepacked, antiseptic, packs of 10
+        	\n•Triangular bandages, minimum 90cm
+        	\n•Wound dressings, sterile non-medicated, large"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </ScrollView>
+
+</RelativeLayout>

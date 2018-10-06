@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BleedingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Aid for Bleeding"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:id="@+id/title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="•Call for Medical Help If: \nBleeding is severe
+\nYou suspect internal bleeding
+\nThere is an abdominal or chest wound
+\nBleeding can't be stopped after 10 minutes of firm and steady pressure
+\nBlood spurts out of wound
+\n•Stop Bleeding: Apply direct pressure on the cut or wound with a clean cloth, tissue, or piece of gauze until bleeding stops.
+\nIf blood soaks through the material, don’t remove it. Put more cloth or gauze on top of it and continue to apply pressure.
+\nIf the wound is on the arm or leg, raise limb above the heart, if possible, to help slow bleeding.
+\nWash your hands again after giving first aid and before cleaning and dressing the wound.
+\nDo not apply a tourniquet unless the bleeding is severe and not stopped with direct pressure.
+\n•Clean Cut or Wound: Gently clean with soap and warm water. Try to rinse soap out of wound to prevent irritation.
+\nDon’t use hydrogen peroxide or iodine, which can damage tissue.
+\n•Protect the wound: Apply antibiotic cream to reduce risk of infection and cover with a sterile bandage.
+\nChange the bandage daily to keep the wound clean and dry."
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </ScrollView>
+
+</RelativeLayout>

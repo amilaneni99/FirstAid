@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BurnActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:text="Treating Burns"
+        android:textAlignment="center"
+        android:id="@+id/title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Major Burns:\n•Protect the burned person from further harm.If you can do so safely, make sure the person you're helping is not in contact with the source of the burn.For electrical burns, make sure the power source is off before you approach the burned person.
+\n•Make certain that the person burned is breathing.If needed, begin rescue breathing if you know how.
+\n•Remove jewelry, belts and other restrictive items, especially from around burned areas and the neck.Burned areas swell rapidly.
+\n•Cover the area of the burn.Use a cool, moist bandage or a clean cloth.
+\n•Don't immerse large severe burns in water.Doing so could cause a serious loss of body heat (hypothermia).
+\n•Elevate the burned area.Raise the wound above heart level, if possible.
+\n•Watch for signs of shock.Signs and symptoms include fainting, pale complexion or breathing in a notably shallow fashion.
+\nMinor Burns:\n•Cool the burn.Hold the burned area under cool (not cold) running water or apply a cool, wet compress until the pain eases.
+\n•Remove rings or other tight items from the burned area.Try to do this quickly and gently, before the area swells.
+\n•Don't break blisters.Fluid-filled blisters protect against infection.If a blister breaks, clean the area with water (mild soap is optional).Apply an antibiotic ointment.\nBut if a rash appears, stop using the ointment.
+\n•Apply lotion. Once a burn is completely cooled, apply a lotion, such as one that contains aloe vera or a moisturizer. This helps prevent drying and provides relief.
+\n•Bandage the burn. Cover the burn with a sterile gauze bandage (not fluffy cotton). Wrap it loosely to avoid putting pressure on burned skin. Bandaging keeps air off the area, reduces pain and protects blistered skin.
+\n•If needed, take an over-the-counter pain reliever, such as ibuprofen (Advil, Motrin IB, others), naproxen sodium (Aleve) or acetaminophen (Tylenol, others)"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:padding="10dp"
+            android:id="@+id/major"/>
+    </ScrollView>
+
+
+</RelativeLayout>
